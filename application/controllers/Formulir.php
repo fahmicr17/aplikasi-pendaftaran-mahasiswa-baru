@@ -10,9 +10,9 @@ class Formulir extends CI_Controller
 	}
 	public function index(){
 		$data['title'] = 'Formulir';
-        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
-        $formulir = $this->db->get_where('formulir', ['email' => $this->session->userdata('email')])->row_array();
-
+		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+        $formulir['formulir']= $this->db->get_where('formulir' ,['email' => $this->session->userdata('email')])->row_array();
+        
 
        
 

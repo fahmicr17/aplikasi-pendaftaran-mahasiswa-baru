@@ -17,14 +17,14 @@
     <button type="button" class="btn-primary text-align right" data-toggle="modal" data-target="#modalSaya">
       Daftar
     </button>
-    <button type="button" class="btn-danger " style="margin-left:853px " data-toggle="modal" data-target="#modalSaya">
+    <button type="button" class="btn-danger " style="margin-left:833px; " data-toggle="modal" data-target="#modalSaya">
       Hapus
     </button>
      <button type="button" class="btn-success " data-toggle="modal" data-target="#modalSaya">
       Edit
     </button>
          <button type="button" class="btn-warning " data-toggle="modal" data-target="#modalSaya">
-      Edit
+      Update
     </button>
     <!--tembah data ke databases-->
     <form action="input.php" method="post">
@@ -46,6 +46,8 @@
             <tbody>
 
 	 <tr>
+    <<?php 
+    $formulir['formulir'] =$this->db->get_where('formulir' ,['email' => $this->session->userdata('email')])->row_array(); ?>
                 <th scope="row" class="bg-dark text-light">1</th>
                 <td class="bg-dark text-light"><?=$user['name'];?></td>
                 <td class="bg-dark text-light"><?=$user['email'];?></td>
@@ -97,7 +99,7 @@
 
 
 <!-- Contoh Modal -->
-<form action="formulir/input.php" method="post">
+<?= form_open_multipart('formulir/tambah_data')?>
 <div class="modal fade" id="modalSaya" tabindex="-1" role="dialog" aria-labelledby="modalSayaLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -183,4 +185,4 @@
     </div>
   </div>
 </div>
-</form>
+<?= form_close(); ?>
