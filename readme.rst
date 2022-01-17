@@ -32,3 +32,4 @@ Hasnah Nur Ardita : Project Manager & Front End Development
 Aditia Darma Nst : Backend Development
 Muhammad Rizky : Microservice
 Tampilan Aplikasi
+@
