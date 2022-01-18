@@ -9,7 +9,7 @@ HANAN : analisis data
 
 
 
-Bootstrap Theme By [Stisla]
+Bootstrap 
 Cloud Serverless & Realtime Event : Firebase
 Aplikasi Pendaftaran Mahasiswa – Pra Project / Project ini dibuat untuk mempermudah mahasiswa dalam
 membuat dan mendaftarkan diri sebagai mahasiswa di instut kampus dan Pra – Project / Project
@@ -17,11 +17,17 @@ membuat dan mendaftarkan diri sebagai mahasiswa di instut kampus dan Pra – Pro
 Aplikasi ini juga akan mempermudah mahasiswa dalam mengisi formulir dan krs dan merister SPP 
 Aplikasi ini merupakan aplikasi berbasis web yang dibuat dengan menggunakan bahasa
 pemrograman dan modul-modul berbasis open source. Berikut ini adalah detailnya :
-1. PHP sebagai bahasa pemrograman yang digunakan untuk membangun antar muka bagi user.
-Dengan menggunakan CI, aplikasi dapat dibuat secara dinamis sehingga user dapat melakukan
+1. Codigniter 3 sebagai bahasa pemrograman  frimework dari php yang digunakan untuk membangun antar muka bagi user.
+Dengan menggunakan , aplikasi dapat dibuat secara dinamis sehingga user dapat melakukan
 input data, maupun mengambil data dengan mudah.
 2. MySql adalah software yang akan digunakan untuk menyimpan dan me-manage data workshop
 maupun project.
+3.Boostreap untuk membuat tampilan atau front end pada website yang  kami buat
+Teknologi yang digunakan Font scripts : Google Font API Web frameworks : CodeIgniter Web servers : Apache2.4.51 Programming languages : PHP 7.3.31 JavaScript libraries : jQuery 3.4.1 UI frameworks : Bootstrap 4.3.1 Library : Axios (Resfull API Client)
+
+![Dashboard](https://user-images.githubusercontent.com/81134042/149739227-ef4ef136-cf14-4ffa-8905-9399faaceeeb.PNG)
+Fitur Untuk memudahkan Anda dalam mengoperasikan, source code aplikasi ini dilengkapi dengan beberapa fitur. Fitur yang ada dalam aplikasi ini dibuat sesuai dengan kebutuhan yang diperlukan untuk mendengisi Data Diri Mahasiswa dan Mengisi Krsnya. Fiturnya memang tidak terlalu banyak, tetapi sudah sesuai dengan kebutuhan. Fitur-fitur tersebut diantaranya adalah. • Login • Register akun • My profile • Edit profile • Formulir • Registrasi • Krs • Dashboard • Logout
+
 ## TAMPILAN REGISTRASI AKUN 
 ![Register](https://user-images.githubusercontent.com/81134042/149739223-3efa532d-97dc-401d-be51-2c1df74652b1.PNG)
 ## TAMPILAN LOGIN UNTUK MASUK KE WIBSITE
