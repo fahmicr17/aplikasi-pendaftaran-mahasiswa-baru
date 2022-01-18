@@ -1,11 +1,10 @@
 Teknologi yang digunakan
 Front End : HTML, Bootstrap
-Backend : Uinsu Web Framework - Base php MVC tutorial pak Sandhika Galih(Web Programming Unpas)
-Javascript : Vue JS, Native Javascript, & Jquery
+Backend : Lalu Haerul Fahmi Framework -  tutorial codigniter 3  Sandhika Galih(Web Programming Unpas)
 Development Team
 lALU HAERUL FAHMI: Project Manager & Front End Development
 M.ZUL WAWAN : Backend Development
-SUHERMAN : Microservice
+SUHERMAN : database administrator
 HANAN : analisis data
 
 
