@@ -35,7 +35,7 @@ maupun project.
 ## FITUR UTK DAFTAR MENJADI MAHASISWA
 ![Mengisi_data](https://user-images.githubusercontent.com/81134042/149742279-868ea12d-dc86-4fb3-85a0-1d13d7d79ff6.PNG)
 ## TAMPILAN USER
-(https://user-images.githubusercontent.com/81134042/149739206-1a596556-87e1-4666-8ff1-bce2b842cafe.PNG)
+![user](https://user-images.githubusercontent.com/81134042/149885876-62e1ed2a-6dee-48e4-8b51-0ff1af635b4c.PNG)
 ## TAMBAHAN FITUR UNTUK ADMIN
 ![Dashboard](https://user-images.githubusercontent.com/81134042/149739227-ef4ef136-cf14-4ffa-8905-9399faaceeeb.PNG)
 
